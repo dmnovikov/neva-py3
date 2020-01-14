@@ -1,3 +1,13 @@
+#Origin code is on
+https://github.com/vika-sonne/NevaMt3xx
+It is for Python 2.x
+
+#I only updated for Python3 Serial Port part 
+
+And added onr test (myneva.py) for get Current, Voltage, Power, etc from device
+Many thanks for original code !
+
+#Original README.md
 # NevaMt3xx
 Serial interface access library of electric power consumption counter of "Neva MT 3xx" type by Taipit (Saint-Petersburg) manufacturing
 

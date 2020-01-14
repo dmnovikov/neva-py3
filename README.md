@@ -2,10 +2,12 @@
 https://github.com/vika-sonne/NevaMt3xx
 It is for Python 2.x
 
-# I only updated for Python 3.x Serial Port part 
-change serial.write(str)  and serial.read
+I only updated for Python 3.x Serial Port part 
 
-So, added one test (myneva.py) for get Current, Voltage, Power, etc from device
+1 Change serial.write(str)  and serial.read(s) with
+serial.write(ss.encode()) and serial.read(s.decode())
+
+2. So, added one test (myneva.py) for get Current, Voltage, Power, etc from device
 Many thanks for original code !
 
 # Original README.md
